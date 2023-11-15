@@ -18,6 +18,8 @@ const Sequelize = require("sequelize");
 /**
  * Creating the DB connection
  */
+console.log("config:");
+console.log(config);
 const sequelize = new Sequelize(
     config.DB,
     config.USER,
