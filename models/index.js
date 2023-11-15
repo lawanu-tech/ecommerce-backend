@@ -9,8 +9,8 @@
  * For example : require(./models); // No need to specify the file name index.js
  */
 
-const env = process.env.NODE_ENV || 'development';
-const config = require("../configs/db.config")[env];
+const env = 'development';
+const config = require('../configs/db.config')[env]
 const Sequelize = require("sequelize");
 
 //console.log("ENV: " + env);
@@ -18,6 +18,7 @@ const Sequelize = require("sequelize");
 /**
  * Creating the DB connection
  */
+console.log("env:"+env)
 console.log("config:");
 console.log(config);
 const sequelize = new Sequelize(
