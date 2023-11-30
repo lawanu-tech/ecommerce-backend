@@ -1,9 +1,9 @@
 module.exports = {
     development: {
-        HOST:'aws.connect.psdb.cloud',
-        USERNAME: 's6ebitk933mltgu1u8a5',
-        PASSWORD: 'pscale_pw_bPWExiiq8ECIJ2v3KTAaKdvPGogbsPdBCnEW6C7VOB',
-        DATABASE: 'ecomm_db',
+        HOST: "bzytrlvbbdwaw7lxewki-mysql.services.clever-cloud.com",
+        USER: "uzdvvnpvxqizosug",
+        PASSWORD: "aOAz6VWdYgtNZMzK8vfE",
+        DB: "bzytrlvbbdwaw7lxewki",
         PORT:3306,
         dialect: "mysql",
         pool: {
