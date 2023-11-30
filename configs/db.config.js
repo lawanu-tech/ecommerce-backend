@@ -1,6 +1,9 @@
 module.exports = {
     development: {
-        HOST:'mysql://s6ebitk933mltgu1u8a5:pscale_pw_bPWExiiq8ECIJ2v3KTAaKdvPGogbsPdBCnEW6C7VOB@aws.connect.psdb.cloud/ecomm_db?ssl={"rejectUnauthorized":true}',
+        HOST:'aws.connect.psdb.cloud',
+        USERNAME: 's6ebitk933mltgu1u8a5',
+        PASSWORD: 'pscale_pw_bPWExiiq8ECIJ2v3KTAaKdvPGogbsPdBCnEW6C7VOB',
+        DATABASE: 'ecomm_db',
         PORT:3306,
         dialect: "mysql",
         pool: {
