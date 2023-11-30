@@ -1,9 +1,9 @@
 module.exports = {
     development: {
-        HOST: "sql12.freemysqlhosting.net",
-        USER: "sql12662304",
-        PASSWORD: "UUikc3w6uF",
-        DB:"sql12662304",
+        HOST: 'mysql://f7co0mpjnzhcfdl1xrdb:************@aws.connect.psdb.cloud/ecomm_db?ssl={"rejectUnauthorized":true}',
+        USER: "f7co0mpjnzhcfdl1xrdb",
+        PASSWORD: "pscale_pw_cZP48yXBN37MfR0rZsGYhFUMJbG7NQppTlqOEYUQq1e",
+        DB:"ecomm_db",
         PORT:3306,
         dialect: "mysql",
         pool: {
